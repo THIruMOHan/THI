@@ -1,17 +1,14 @@
 #include<stdio.h>
 int main()
 {
-  int Number,Count=0;
- 
-  printf("Please Enter any number\n");
-  scanf("%d", &Number);
- 
-  while(Number > 0)
+  int number,count=0;
+  printf("\n enter the number");
+  scanf("%d",&number);
+  while(number>0)
   {
-     Number = Number / 10;
-     Count = Count + 1;  
+    number=number/10;
+    count=count+1
   }
- 
-  printf("\n Number of Digits in a Given Number = %d", Count);
-  return 0;
+  printf("the numbers are %d",count);
+return 0;
 }
