@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() 
 {
-    int n,a[10],temp=0,j,i;
+    int n,a[10],b=0,j,i;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
@@ -13,9 +13,9 @@ int main()
        {
            if(a[i]>a[j])
            {
-               temp=a[i];
+               b=a[i];
                a[i]=a[j];
-               a[j]=temp;
+               a[j]=b;
            }
        }
     }
