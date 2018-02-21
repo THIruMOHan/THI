@@ -3,7 +3,7 @@
 int main(void) 
 {
 	int array[10];
-	int n,i,j,a;
+	int n,i,j,b;
 	float median;
 	printf("\n enter the array size:");
 	scanf("%d",&n);
@@ -18,9 +18,9 @@ int main(void)
 		{
 			if(array[i]>array[j])
 			{
-				a=array[i];
+				b=array[i];
 				array[i]=array[j];
-				array[j]=a;
+				array[j]=b;
 			}
 		}
 	}
